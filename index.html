@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio web institucional de la I.E. 40028 Guillermo Mercado Barroso, Alto Selva Alegre, Arequipa." />
+  <meta name="theme-color" content="#f6c343" />
+  <title>I.E. 40028 Guillermo Mercado Barroso</title>
+  <link rel="icon" href="insignia-gmb.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header" id="inicio">
+    <div class="topbar" aria-label="Información institucional rápida">
+      <p>Gerencia Regional de Educación Arequipa · UGEL Arequipa Sur</p>
+      <p>📍 Calle Abancay con Huaraz s/n, P.J. Apurímac, Alto Selva Alegre</p>
+    </div>
+
+    <nav class="navbar" aria-label="Menú principal">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <img src="insignia-gmb.jpg" alt="Insignia de la I.E. Guillermo Mercado Barroso" />
+        <span><strong>I.E. 40028</strong><small>Guillermo Mercado Barroso</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-controls="menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="menu">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#mensaje">Mensaje</a></li>
+        <li><a href="#propuesta">Propuesta</a></li>
+        <li><a href="#plataformas">Plataformas</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#metodologias">Metodologías</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Activar modo oscuro">🌙</button>
+    </nav>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Bienvenidos a nuestra comunidad barrosina</p>
+        <h1 id="hero-title">Formamos ciudadanos íntegros, críticos y comprometidos con Arequipa.</h1>
+        <p class="hero-text">Institución Educativa Pública N.° 40028 “Guillermo Mercado Barroso”, ubicada en el P.J. Apurímac de Alto Selva Alegre. Promovemos una educación integral, inclusiva, eco amigable y orientada al logro de aprendizajes.</p>
+        <div class="hero-actions" role="group" aria-label="Acciones principales">
+          <a class="btn primary" href="#propuesta">Conoce nuestra propuesta</a>
+          <a class="btn ghost" href="#contacto">Ubícanos</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Resumen institucional">
+        <img src="colegio.jpeg" alt="Escudo institucional Guillermo Mercado Barroso" />
+        <h2>Ciencia, Arte y Trabajo</h2>
+        <p>por un Perú nuevo</p>
+      </div>
+    </section>
+  </header>
+
+  <main id="contenido">
+    <section class="section stats" aria-label="Datos principales de la institución">
+      <article>
+        <strong data-count="0226688"></strong>
+        <span>Código nivel primario</span>
+      </article>
+      <article>
+        <strong data-count="0569988">0</strong>
+        <span>Código nivel secundario</span>
+      </article>
+      <article>
+        <strong data-count="37">0</strong>
+        <span>Docentes aprox.</span>
+      </article>
+      <article>
+        <strong data-count="2029">0</strong>
+        <span>PEI vigente hasta</span>
+      </article>
+    </section>
+
+    <section class="section" id="nosotros">
+      <div class="section-heading">
+        <p class="eyebrow">Identidad institucional</p>
+        <h2>Somos Guillermo Mercado Barroso</h2>
+        <p>Brindamos un servicio educativo de calidad para estudiantes de primaria y secundaria, fortaleciendo valores, competencias para la vida y habilidades socioemocionales.</p>
+      </div>
+
+      <div class="grid two">
+        <article class="card featured">
+          <span class="icon">🎯</span>
+          <h3>Misión</h3>
+          <p>Formamos integralmente a nuestros estudiantes en un entorno social inclusivo y eco amigable, promoviendo aprendizajes significativos, competencias para la vida, derechos, deberes, valores y cultura de paz.</p>
+        </article>
+        <article class="card featured">
+          <span class="icon">🌟</span>
+          <h3>Visión</h3>
+          <p>Ser una institución educativa líder en Alto Selva Alegre, reconocida por formar ciudadanos íntegros, críticos, responsables y comprometidos con la sociedad, en un marco de respeto, inclusión y equidad.</p>
+        </article>
+      </div>
+
+      <div class="values" aria-label="Valores institucionales">
+        <span>Responsabilidad</span><span>Respeto</span><span>Solidaridad</span><span>Justicia</span><span>Empatía</span><span>Perseverancia</span><span>Equidad</span><span>Puntualidad</span><span>Cuidado del entorno</span>
+      </div>
+    </section>
+
+    <section class="section split" id="mensaje">
+      <div>
+        <p class="eyebrow">Mensaje institucional</p>
+        <h2>Una escuela que aprende, acompaña y transforma</h2>
+        <p>El logro de aprendizajes y la formación integral de niñas, niños y adolescentes se fortalece cuando toda la comunidad educativa comparte una misma visión y trabaja colaborativamente.</p>
+        <button class="btn primary" data-open-modal="mensajeModal">Leer mensaje completo</button>
+      </div>
+      <div class="quote-card">
+        <p>“Reafirmamos nuestro compromiso con una educación de calidad, pertinente y orientada al desarrollo pleno de nuestros estudiantes”.</p>
+        <span>Dirección institucional</span>
+      </div>
+    </section>
+
+    <section class="section team" aria-labelledby="team-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">Nuestro equipo directivo</p>
+        <h2 id="team-title">Liderazgo pedagógico y gestión participativa</h2>
+      </div>
+      <div class="grid three">
+        <article class="profile-card">
+          <div class="avatar">PA</div>
+          <h3>Lic. Percy Aquino Huillca Zavala</h3>
+          <p>Director General</p>
+        </article>
+        <article class="profile-card">
+          <div class="avatar">MS</div>
+          <h3>Lic. Marivel Sisa Condori</h3>
+          <p>Subdirectora del nivel Primario</p>
+        </article>
+        <article class="profile-card">
+          <div class="avatar">LL</div>
+          <h3>Lic. Lourdes Teresa Lima Chaiña</h3>
+          <p>Subdirectora del nivel Secundario</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="propuesta">
+      <div class="section-heading">
+        <p class="eyebrow">Propuesta educativa</p>
+        <h2>Aprendizajes significativos para la vida</h2>
+        <p>Nuestra práctica pedagógica se centra en el estudiante, el enfoque por competencias, la evaluación formativa, el pensamiento crítico, la convivencia democrática y el cuidado del ambiente.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Niveles educativos">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="primaria">Primaria</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="secundaria">Secundaria</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="transversal">Competencias transversales</button>
+      </div>
+
+      <div class="tab-panels">
+        <article class="tab-panel active" id="primaria" role="tabpanel">
+          <h3>Nivel Primaria</h3>
+          <p>Fortalecemos la comunicación, matemática, ciencia y tecnología, personal social, arte, cultura, educación física, tutoría y orientación educativa.</p>
+          <ul class="check-list">
+            <li>Aprendizaje activo y situado.</li>
+            <li>Refuerzo escolar según necesidades.</li>
+            <li>Convivencia y bienestar emocional.</li>
+          </ul>
+        </article>
+        <article class="tab-panel" id="secundaria" role="tabpanel" hidden>
+          <h3>Nivel Secundaria</h3>
+          <p>Promovemos el pensamiento crítico, la ciudadanía activa, el emprendimiento, la investigación, las TIC y la preparación para el mundo académico, laboral y social.</p>
+          <ul class="check-list">
+            <li>Áreas curriculares articuladas al CNEB.</li>
+            <li>Educación para el Trabajo y competencias TIC.</li>
+            <li>Tutoría, convivencia y proyecto de vida.</li>
+          </ul>
+        </article>
+        <article class="tab-panel" id="transversal" role="tabpanel" hidden>
+          <h3>Competencias transversales</h3>
+          <p>Desarrollamos la gestión autónoma del aprendizaje y el desenvolvimiento responsable en entornos virtuales, con énfasis en ciudadanía digital.</p>
+          <ul class="check-list">
+            <li>Uso responsable de herramientas digitales.</li>
+            <li>Organización de metas y evidencias.</li>
+            <li>Aprendizaje colaborativo y creativo.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="plataformas">
+      <div class="section-heading compact">
+        <p class="eyebrow">Servicios digitales</p>
+        <h2>Plataformas, recursos y atención</h2>
+      </div>
+      <div class="grid three service-grid">
+        <article class="service-card">
+          <span>📩</span><h3>Mesa de partes virtual</h3><p>Canal para orientar trámites, solicitudes y comunicaciones institucionales.</p><a href="mailto:mesadepartes@gmb.edu.pe">Enviar correo</a>
+        </article>
+        <article class="service-card">
+          <span>🧾</span><h3>SIAGIE</h3><p>Gestión de matrícula, asistencia, calificativos e información académica.</p><a href="https://siagie.minedu.gob.pe" target="_blank" rel="noopener">Ir a SIAGIE</a>
+        </article>
+        <article class="service-card">
+          <span>💻</span><h3>Aula virtual</h3><p>Espacio para compartir materiales, evidencias, tareas y retroalimentación.</p><a href="#contacto">Solicitar acceso</a>
+        </article>
+        <article class="service-card">
+          <span>📚</span><h3>Biblioteca escolar</h3><p>Promoción de lectura, consulta y apoyo al Plan Lector institucional.</p><a href="#proyectos">Ver Plan Lector</a>
+        </article>
+        <article class="service-card">
+          <span>🔬</span><h3>Laboratorio</h3><p>Indagación, ciencia escolar y proyectos tecnológicos para resolver problemas del entorno.</p><a href="#metodologias">Ver metodologías</a>
+        </article>
+        <article class="service-card">
+          <span>🌐</span><h3>PerúEduca</h3><p>Recursos formativos para docentes y estudiantes.</p><a href="https://www.perueduca.pe/" target="_blank" rel="noopener">Visitar PerúEduca</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="proyectos">
+      <div class="section-heading">
+        <p class="eyebrow">Proyectos institucionales</p>
+        <h2>Innovación, ambiente y convivencia</h2>
+        <p>Actividades que fortalecen la identidad barrosina y responden a las necesidades del entorno.</p>
+      </div>
+      <div class="filters" aria-label="Filtrar proyectos">
+        <button class="filter active" data-filter="all">Todos</button>
+        <button class="filter" data-filter="lectura">Lectura</button>
+        <button class="filter" data-filter="ambiente">Ambiente</button>
+        <button class="filter" data-filter="convivencia">Convivencia</button>
+        <button class="filter" data-filter="tic">TIC</button>
+      </div>
+      <div class="grid three project-grid">
+        <article class="project-card" data-category="lectura">
+          <img src="lectura.svg" alt="Ilustración del Plan Lector" />
+          <div><span>Lectura</span><h3>¡STOP! Barrosinos leyendo</h3><p>Promueve el hábito lector en aula, hogar y espacios escolares.</p></div>
+        </article>
+        <article class="project-card" data-category="ambiente">
+          <img src="biohuerto.svg" alt="Ilustración de biohuerto escolar" />
+          <div><span>Ambiente</span><h3>Biohuerto y reciclaje</h3><p>Gestión de residuos sólidos, cuidado de áreas verdes y educación eco amigable.</p></div>
+        </article>
+        <article class="project-card" data-category="convivencia">
+          <img src="convivencia.svg" alt="Ilustración de convivencia escolar" />
+          <div><span>Convivencia</span><h3>Tutoría y bienestar</h3><p>Acompañamiento socioafectivo, cultura de paz y prevención de riesgos.</p></div>
+        </article>
+        <article class="project-card" data-category="tic">
+          <img src="tecnologia.svg" alt="Ilustración de tecnologías educativas" />
+          <div><span>TIC</span><h3>Ciudadanía digital</h3><p>Uso responsable de entornos virtuales y recursos digitales para aprender.</p></div>
+        </article>
+        <article class="project-card" data-category="ambiente">
+          <img src="aula.svg" alt="Ilustración de aula activa" />
+          <div><span>Gestión</span><h3>Escuela saludable</h3><p>Limpieza, orden, seguridad y conservación del patrimonio escolar.</p></div>
+        </article>
+        <article class="project-card" data-category="convivencia">
+          <img src="deporte.svg" alt="Ilustración de vida saludable" />
+          <div><span>Vida saludable</span><h3>Actividad física y deporte</h3><p>Prácticas que fortalecen la salud, la disciplina y el trabajo en equipo.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="metodologias">
+      <div class="section-heading compact">
+        <p class="eyebrow">Metodologías activas</p>
+        <h2>Aprender haciendo y reflexionando</h2>
+      </div>
+      <div class="method-list">
+        <details open>
+          <summary>Aprendizaje Basado en Proyectos</summary>
+          <p>Los estudiantes investigan problemas reales, diseñan soluciones y comunican productos útiles para su comunidad.</p>
+        </details>
+        <details>
+          <summary>Trabajo cooperativo</summary>
+          <p>Se promueve la ayuda mutua, la complementariedad de roles y la autorregulación dentro de los equipos.</p>
+        </details>
+        <details>
+          <summary>Evaluación formativa</summary>
+          <p>La retroalimentación permite reconocer avances, dificultades y acciones de mejora durante todo el proceso de aprendizaje.</p>
+        </details>
+        <details>
+          <summary>Pensamiento crítico y complejo</summary>
+          <p>Se analizan situaciones del contexto para tomar decisiones responsables y argumentadas.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section media-section" aria-labelledby="media-title">
+      <div class="section-heading">
+        <p class="eyebrow">Recursos multimedia</p>
+        <h2 id="media-title">Vida escolar en imágenes y video</h2>
+      </div>
+      <div class="media-grid">
+        <div class="video-card">
+          <video controls poster="insignia-gmb.jpg">
+            <source src="video-institucional-gmb.mp4" type="video/mp4" />
+            Tu navegador no soporta video HTML5.
+          </video>
+          <p>Video institucional de presentación. Puedes reemplazarlo por un video real de la I.E.</p>
+        </div>
+        <div class="testimonial" aria-live="polite">
+          <p id="testimonialText">“Ser barrosino es aprender con respeto, esfuerzo y compromiso”.</p>
+          <strong id="testimonialAuthor">Estudiante</strong>
+          <div class="slider-controls">
+            <button id="prevTestimonial" aria-label="Testimonio anterior">‹</button>
+            <button id="nextTestimonial" aria-label="Siguiente testimonio">›</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery" aria-label="Galería institucional">
+        <button class="gallery-item" data-img="aula.svg"><img src="aula.svg" alt="Aula activa" /></button>
+        <button class="gallery-item" data-img="lectura.svg"><img src="lectura.svg" alt="Plan lector" /></button>
+        <button class="gallery-item" data-img="biohuerto.svg"><img src="biohuerto.svg" alt="Biohuerto" /></button>
+        <button class="gallery-item" data-img="tecnologia.svg"><img src="tecnologia.svg" alt="TIC educativa" /></button>
+      </div>
+    </section>
+
+    <section class="section alt news" aria-labelledby="news-title">
+      <div class="section-heading compact">
+        <p class="eyebrow">Comunicados</p>
+        <h2 id="news-title">Noticias y avisos</h2>
+      </div>
+      <div class="grid three">
+        <article class="news-card">
+          <time datetime="2026-03-02">Marzo 2026</time>
+          <h3>Inicio del año escolar</h3>
+          <p>Bienvenida a estudiantes, familias y docentes para un nuevo año de aprendizajes.</p>
+        </article>
+        <article class="news-card">
+          <time datetime="2026-05-05">Mayo 2026</time>
+          <h3>Plan Lector institucional</h3>
+          <p>Fortalecemos el hábito lector con espacios de lectura planificados.</p>
+        </article>
+        <article class="news-card">
+          <time datetime="2026-06-05">Junio 2026</time>
+          <h3>Campaña ambiental</h3>
+          <p>Reciclaje, biohuerto y cuidado del entorno para una escuela eco amigable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact-info">
+        <p class="eyebrow">Contáctenos</p>
+        <h2>Estamos para atenderte</h2>
+        <ul class="contact-list">
+          <li>📍 Calle Abancay con Huaraz s/n, P.J. Apurímac, Alto Selva Alegre, Arequipa</li>
+          <li>📧 mesadepartes@gmb.edu.pe</li>
+          <li>🕘 Atención: lunes a viernes</li>
+        </ul>
+        <iframe title="Mapa de ubicación de la I.E. Guillermo Mercado Barroso" loading="lazy" src="https://www.google.com/maps?q=Calle%20Abancay%20con%20Huaraz%20Alto%20Selva%20Alegre%20Arequipa&output=embed"></iframe>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>Formulario de consulta</h3>
+        <label for="nombre">Nombre y apellidos</label>
+        <input type="text" id="nombre" name="nombre" autocomplete="name" required />
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" autocomplete="email" required />
+        <label for="mensajeForm">Mensaje</label>
+        <textarea id="mensajeForm" name="mensaje" rows="5" required></textarea>
+        <button class="btn primary" type="submit">Enviar consulta</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <img src="insignia-gmb.jpg" alt="Insignia de la institución" />
+      <p>I.E. 40028 “Guillermo Mercado Barroso”</p>
+      <small>© <span id="year"></span> · Sitio web educativo institucional.</small>
+    </div>
+    <nav aria-label="Enlaces del pie de página">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </footer>
+
+  <dialog class="modal" id="mensajeModal" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close" data-close-modal aria-label="Cerrar mensaje">×</button>
+      <h2 id="modalTitle">Mensaje a la comunidad educativa</h2>
+      <p>Querida familia barrosina: nuestra institución reafirma su compromiso con una educación de calidad, inclusiva, pertinente y orientada al desarrollo integral de cada estudiante. Invitamos a docentes, estudiantes y familias a trabajar unidos por mejores aprendizajes, convivencia democrática y cuidado de nuestro entorno.</p>
+      <p>Con identidad, responsabilidad y perseverancia seguiremos construyendo una escuela que aprende, acompaña y transforma.</p>
+    </div>
+  </dialog>
+
+  <dialog class="modal image-modal" id="imageModal" aria-label="Vista ampliada de imagen">
+    <button class="modal-close" data-close-modal aria-label="Cerrar imagen">×</button>
+    <img id="modalImage" src="" alt="Imagen ampliada de la galería" />
+  </dialog>
+
+  <button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
